@@ -29,7 +29,7 @@ type ClientRest struct {
 	passphrase  string
 	destination okex.Destination
 	baseURL     okex.BaseURL
-	client      *http.Client
+	Client      *http.Client
 }
 
 // NewClient returns a pointer to a fresh ClientRest
